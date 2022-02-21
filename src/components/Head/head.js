@@ -7,9 +7,9 @@ function head() {
     return (
         <div className="head">
             <div className="head-con">
-                <div className="circle-img"></div>
                 <div className="head-img">
                     <img src={imageProfile} alt="" />
+
                 </div>
                 <div className="head-text">
                     <h1>Hello, I'm</h1>

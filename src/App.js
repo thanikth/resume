@@ -1,13 +1,13 @@
 import Navbar from './components/Topbar/navbar'
 import Head from './components/Head/head'
+import Content from './components/contents/aboutme';
 
 function App() {
   return (
     <>
       <Navbar />
       <Head />
-      <Head />
-      <Head />
+      <Content />
     </>
 
 
