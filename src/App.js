@@ -1,13 +1,15 @@
 import Navbar from './components/Topbar/navbar'
 import Head from './components/Head/head'
-import Content from './components/contents/aboutme';
+import Aboutout from './components/Aboutme/aboutme';
+import Skill from './components/Skill/skill'
 
 function App() {
   return (
     <>
       <Navbar />
       <Head />
-      <Content />
+      <Aboutout />
+      <Skill />
     </>
 
 

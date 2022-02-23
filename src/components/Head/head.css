@@ -58,9 +58,9 @@
     padding-left: 10%;
   }
 }
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1024px) {
   .head-img {
-    width: 58%;
+    width: 50%;
   }
   .head-text p {
     font-size: 30px;
