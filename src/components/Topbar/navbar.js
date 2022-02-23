@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { FiUser, FiMenu, FiX } from "react-icons/fi";
 import './navbar.css'
+import { Link } from 'react-scroll'
 
 function Navbar() {
 
@@ -12,23 +13,43 @@ function Navbar() {
             <div className='container'>
                 <div className='header-con'>
                     <div className="logo">
-                        <a href="#">SrGot <FiUser /></a>
+                        <Link to="home" path="/home" smooth={true} duration={800}>
+                            SrGot <FiUser />
+                        </Link>
+
                     </div>
                     <ul className={click ? "menu active" : "menu"}>
-                        <li className='menu-link' onClick={closeMobile}>
-                            <a href="#">ABOUT</a>
+
+                        <li className='menu-link'>
+                            <Link to="about" onClick={closeMobile}
+                                smooth={true} duration={1000}>
+                                ABOUT
+                            </Link>
                         </li>
-                        <li className='menu-link' onClick={closeMobile}>
-                            <a href="#">SKILL</a>
+
+                        <li className='menu-link'>
+                            <Link to="skill" onClick={closeMobile}
+                                smooth={true} duration={1000}>
+                                SKILL
+                            </Link>
                         </li>
-                        <li className='menu-link' onClick={closeMobile}>
-                            <a href="#">WORK</a>
+                        <li className='menu-link' >
+                            <Link to="work" onClick={closeMobile}
+                                smooth={true} duration={1000}>
+                                WORK
+                            </Link>
                         </li>
-                        <li className='menu-link' onClick={closeMobile}>
-                            <a href="#">EDUCATION</a>
+                        <li className='menu-link'>
+                            <Link to="work" onClick={closeMobile}
+                                smooth={true} duration={1000}>
+                                EDUCATION
+                            </Link>
                         </li>
-                        <li className='menu-link' onClick={closeMobile}>
-                            <a href="#">CONTACT</a>
+                        <li className='menu-link'>
+                            <Link to="work" onClick={closeMobile}
+                                smooth={true} duration={1000}>
+                                CONTACT
+                            </Link>
                         </li>
                     </ul>
                     <div className="mobile-menu" onClick={handleClick}>
