@@ -5,7 +5,7 @@ import { FcApproval } from "react-icons/fc";
 
 function skill() {
     return (
-        <div className="skill">
+        <div className="skill" id='/skill'>
             <div className="skill-con">
                 <div className="skill-card">
                     <div className="skill-front">

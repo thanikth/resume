@@ -5,7 +5,7 @@ import ReactTypingEffect from 'react-typing-effect';
 
 function head() {
     return (
-        <div className="head">
+        <div className="head" id='home'>
             <div className="head-con">
                 <div className="head-img">
                     <img src={imageProfile} alt="" />
