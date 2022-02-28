@@ -3,7 +3,7 @@ import './skill.css'
 import './wave.css'
 import { FcApproval } from "react-icons/fc";
 
-function skill() {
+function Skill() {
     return (
         <div className="skill" id='/skill'>
             <div className="skill-con">
@@ -78,4 +78,4 @@ function skill() {
     )
 }
 
-export default skill
+export default Skill
