@@ -2,8 +2,8 @@
   max-width: 100%;
   margin: 10% auto;
   padding: 0 3%;
-  background-color: #9ad0ec;
-  /* background-color: #1572a1; */
+  /* background-color: #9ad0ec; */
+  background-image: linear-gradient(#ffff, #439cfe);
   position: relative;
   overflow: hidden;
 }
@@ -21,7 +21,7 @@
   box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
   padding: 2%;
   /* background-color: #1572a1; */
-  background-color: #f9f3df;
+  background-color: #fef6f1;
   border-radius: 5%;
 }
 .skill-front {
@@ -33,7 +33,8 @@
 .skill-front .item {
   flex: 40%;
 }
-.title {
+.skill-back .title,
+.skill-front .title {
   display: block;
   width: 100%;
   font-size: 30px;

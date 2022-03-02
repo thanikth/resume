@@ -2,7 +2,7 @@ import React from 'react'
 import './aboutme.css'
 import imageAbout from '../../img/aboutme.jpeg'
 
-function aboutme() {
+function Aboutme() {
     return (
         <div className="aboutme" id="about">
             <div className="aboutme-con">
@@ -28,4 +28,4 @@ function aboutme() {
     )
 }
 
-export default aboutme
+export default Aboutme
