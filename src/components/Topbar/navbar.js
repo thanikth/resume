@@ -40,13 +40,13 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='menu-link'>
-                            <Link to="work" onClick={closeMobile}
+                            <Link to="education" onClick={closeMobile}
                                 smooth={true} duration={1000}>
                                 EDUCATION
                             </Link>
                         </li>
                         <li className='menu-link'>
-                            <Link to="work" onClick={closeMobile}
+                            <Link to="contact" onClick={closeMobile}
                                 smooth={true} duration={1000}>
                                 CONTACT
                             </Link>
