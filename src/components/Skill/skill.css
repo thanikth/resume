@@ -33,7 +33,8 @@
 .skill-front .item {
   flex: 40%;
 }
-.title {
+.skill-back .title,
+.skill-front .title {
   display: block;
   width: 100%;
   font-size: 30px;
