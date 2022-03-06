@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './contact.css'
 import emailjs from '@emailjs/browser'
+import iconGmail from '../../img/gmail.png'
+import iconPhone from '../../img/phone.png'
 
 function Contact() {
     const [result, setResult] = useState(false)
@@ -25,30 +27,56 @@ function Contact() {
         <div className="contact" id='contact'>
             <div className="contact-con">
                 <div className="my-contact">
-                    test
+                    <div className="my-contact-con">
+                        {/* <img src={imgContact} alt="" /> */}
+                        <div className="info-contact">
+                            Contact
+                        </div>
+                        <div className="info-contact">
+                            <img src={iconPhone} alt="" />
+                            <a href="tel:+66802083199">0802083199</a>
+                        </div>
+                        <div className="info-contact">
+                            <img src={iconGmail} alt="" />
+                            <a href="mailto:got321007@gmail.com">got321007@gmail.com</a>
+                        </div>
+                    </div>
                 </div>
                 <form onSubmit={sendEmail}>
                     <div className="form-con">
-                        <label>Subject</label>
-                        <input className='item' type="text" name="subject" required />
+                        <div className="title-contact-mobile">
+                            <h2>Contact</h2>
+                            <br />
+                        </div>
+                        <h3>Subject</h3>
+                        <input className='item' type="text" name="subject" />
                         <br />
 
-                        <label>Name</label>
+                        <h3>Name *</h3>
                         <input className='item' type="text" name="from_name" required />
                         <br />
 
-                        <label>Email</label>
-                        <input className='item' type="text" name="from_email" required />
+                        <h3>Email *</h3>
+                        <input className='item' type="email" name="from_email" required />
                         <br />
 
-                        <label>Message</label>
-                        <textarea name="message" />
+                        <h3>Message *</h3>
+                        <textarea name="message" required />
                         <br />
                     </div>
-                    <input type="submit" value="Submit" />
+                    <button>Submit</button >
                     <div className="label-submit">{result ? <p>test</p> : null}</div>
                 </form >
+                <div className="mail">
+                </div>
+                <div className="mail">
+                </div>
+                <div className="top-mail">
+                </div>
+                <div className="top-mail">
+                </div>
             </div>
+
 
         </div >
     )
