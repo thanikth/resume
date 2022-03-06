@@ -3,6 +3,7 @@ import Head from './components/Head/head'
 import Aboutout from './components/Aboutme/aboutme';
 import Skill from './components/Skill/skill'
 import Work from './components/Work/work';
+import Contact from './components/Contact/contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Aboutout />
       <Skill />
       <Work />
+      <Contact />
     </>
 
 
