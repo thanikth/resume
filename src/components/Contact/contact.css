@@ -194,3 +194,12 @@ button:active {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .my-contact-con .info-contact:nth-child(2n) {
+    margin: 0 30% 0 10%;
+  }
+  .my-contact-con .info-contact:nth-child(3) {
+    margin: 0 30% 0 10%;
+  }
+}
