@@ -4,6 +4,7 @@ import Aboutout from './components/Aboutme/aboutme';
 import Skill from './components/Skill/skill'
 import Work from './components/Work/work';
 import Contact from './components/Contact/contact';
+import Footer from './components/Footer/footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skill />
       <Work />
       <Contact />
+      <Footer />
     </>
 
 
