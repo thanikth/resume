@@ -62,7 +62,7 @@
     font-size: 30px !important;
     font-weight: bold !important;
   }
-  .info h2 {
+  .info h3 {
     font-size: 18px !important;
     line-height: 2rem !important;
   }
@@ -83,7 +83,7 @@
     font-size: 30px;
     font-weight: bold;
   }
-  .info h2 {
+  .info h3 {
     font-size: 20px;
     line-height: 2.5rem;
   }
