@@ -82,14 +82,33 @@
 
 .work-con:nth-child(2) .content .year {
   border-radius: 50px 0 0 50px;
-  background: #4dae50;
+  background: #214098;
 }
 .work-con:nth-child(2) .content .year:before {
   border-left: none;
   border-right: 35px solid transparent;
   left: auto;
   right: 0;
+  border-top-color: #7785ac;
+}
+
+.work-con:nth-child(3) .content .year {
+  background: #4dae50;
+}
+.work-con:nth-child(3) .content .year:before {
   border-top-color: #99d39b;
+}
+
+.work-con:nth-child(4) .content .year {
+  border-radius: 50px 0 0 50px;
+  background: #884eba;
+}
+.work-con:nth-child(4) .content .year:before {
+  border-left: none;
+  border-right: 35px solid transparent;
+  left: auto;
+  right: 0;
+  border-top-color: #9f81b9;
 }
 
 .content .details {
@@ -102,6 +121,10 @@
   border-radius: 0 0 20px 20px;
 }
 .work-con:nth-child(2) .content .details {
+  margin: 0 35px 0 45px;
+}
+
+.work-con:nth-child(4) .content .details {
   margin: 0 35px 0 45px;
 }
 

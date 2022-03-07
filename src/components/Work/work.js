@@ -22,7 +22,7 @@ function Work() {
                         </div>
                     </div>
                 </div>
-                <div className="work-con right">
+                <div className="work-con right" id="education">
                     <div className="content">
                         <h2 className='year'>December 2020 - March 2021</h2>
                         <div className="details">
@@ -39,19 +39,34 @@ function Work() {
                     </div>
                 </div>
 
-                {/* <div className="work-con left">
-                <div className="content">
-                    <h2 className='year'>2017</h2>
-                    <div className="details">
-                        <h3 className='title'>
-                            test
-                        </h3>
-                        <p className='description'>
-                            paragram
-                        </p>
+                <div className="work-con left">
+                    <div className="content">
+                        <h2 className='year'>2017 - 2021</h2>
+                        <div className="details">
+                            <h3 className='title'>
+                                Kasetsart University
+                            </h3>
+                            <p className='description'>
+                                Information Technology <br />
+                                GPA : 3.13
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div> */}
+
+                <div className="work-con right">
+                    <div className="content">
+                        <h2 className='year'>2014 - 2017</h2>
+                        <div className="details">
+                            <h3 className='title'>
+                                Wat nuannoradit School
+                            </h3>
+                            <p className='description'>
+                                Sciences and Mathematics Program
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
             </div >
         </div>

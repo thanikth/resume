@@ -25,7 +25,7 @@ function Footer() {
                 <br />
                 <br />
 
-                <div className="footer-aboutme">
+                <div>
                     <h5>Copyright © 2022 Thanik Thamamnuisuk</h5>
                 </div>
             </div>

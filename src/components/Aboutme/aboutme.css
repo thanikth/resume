@@ -38,11 +38,11 @@
   padding: 10% 10%;
 }
 .about-head-text p {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: bold;
 }
-.info h2 {
-  line-height: 3rem;
+.info h3 {
+  line-height: 2.5rem;
 }
 
 @media screen and (max-width: 540px) {
