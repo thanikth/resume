@@ -28,7 +28,6 @@ function Contact() {
             <div className="contact-con">
                 <div className="my-contact">
                     <div className="my-contact-con">
-                        {/* <img src={imgContact} alt="" /> */}
                         <div className="info-contact">
                             Contact
                         </div>

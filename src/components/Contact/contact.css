@@ -26,6 +26,10 @@
   /* align-items: center; */
 }
 
+.info-contact a {
+  text-decoration: none;
+}
+
 .my-contact-con .info-contact {
   margin: 0 auto;
   display: flex;
@@ -34,6 +38,7 @@
   font-weight: bold;
   color: #ffffff;
 }
+
 .my-contact-con .info-contact:nth-child(2n) {
   margin: 0 50% 0 30%;
   padding-top: 10%;
@@ -57,7 +62,6 @@
 .contact form {
   width: 50%;
   padding: 5% 5%;
-  /* background-color: ; */
 }
 
 .contact form input[type='text'],

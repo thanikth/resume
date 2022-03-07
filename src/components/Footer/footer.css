@@ -16,6 +16,10 @@ footer {
   justify-content: center;
 }
 
+.contact-footer .info-footer a {
+  text-decoration: none;
+}
+
 .contact-footer .info-footer:nth-child(2n) {
   margin: 0 3% 0 0;
 }
