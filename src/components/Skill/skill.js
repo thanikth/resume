@@ -34,7 +34,7 @@ function Skill() {
                         </div>
                         <div className='item'>
                             <h3><FcApproval className='icon' size={20} />React</h3>
-                            <p>Intermediate</p>
+                            <p>Basic</p>
                         </div>
                         <div className='item'>
                             <h3><FcApproval className='icon' size={20} />Vue</h3>
@@ -49,7 +49,7 @@ function Skill() {
                         </div>
                         <div className='item'>
                             <h3><FcApproval className='icon' size={20} />Node JS</h3>
-                            <p>Intermediate</p>
+                            <p>Basic</p>
                         </div>
                         <div className='item'>
                             <h3><FcApproval className='icon' size={20} />Java</h3>
